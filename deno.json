@@ -1,0 +1,19 @@
+{
+    "fmt": {
+        "options": {
+            "indentWidth": 4,
+            "lineWidth": 80
+        }
+    },
+    "compilerOptions": {
+        "lib": [
+            "esnext",
+            "dom",
+            "dom.iterable"
+        ]
+    },
+    "tasks": {
+        "start": "packup serve src/index.html",
+        "build": "packup build src/index.html"
+    }
+}
