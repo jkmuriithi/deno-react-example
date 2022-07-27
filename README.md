@@ -4,6 +4,7 @@
 The Create React App starting page, rebuilt for Deno using [packup](https://github.com/kt3k/packup). Feel free to fork this repo to get started with React in Deno, or make a PR to keep things up to date.
 
 ## Development
+Make sure packup and a compatible version of Deno are installed before trying to work with the code in this repository.
 - Run `deno task start` to start a local development server.
 - Run `deno task build` to generate a build of the project.
 
