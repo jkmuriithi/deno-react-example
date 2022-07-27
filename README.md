@@ -8,6 +8,6 @@ Make sure packup and a compatible version of Deno are installed before trying to
 - Run `deno task start` to start a local development server.
 - Run `deno task build` to generate a build of the project.
 
-## Current Issues
+## Limitations
 1. There is currently no way to automatically switch between development and production dependencies in packup. This means that switching from the development build of React to the production build of React requires manually editing `deps.ts`. 
 1. Since packup and esbuild currently don't support SVG imports, CRA's `logo.svg` file has to be wrapped in a `Logo` component to work properly.
