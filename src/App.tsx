@@ -2,7 +2,6 @@ import { React } from "./deps.ts";
 import Logo from "./Logo.tsx";
 // import styles from "./App.css" assert { type: "css" };
 
-
 /** Create React App default page. */
 export default function App() {
     return (
